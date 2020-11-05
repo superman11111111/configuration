@@ -9,4 +9,5 @@ mv ~/Downloads/ ~/downloads/ 2>/dev/null &&
 sudo cp -rf user-dirs.dirs ~/.config/user-dirs.dirs &&
 cp -f .tmux.conf ~/.tmux.conf &&
 cat .bashrc >> ~/.bashrc &&
+cp .screenrc ~/.screenrc &&
 sudo apt autoremove
