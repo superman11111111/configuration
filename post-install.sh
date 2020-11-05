@@ -6,6 +6,7 @@ do
 	sudo rm -rf ~/$i
 done 
 mv ~/Downloads/ ~/downloads/ 2>/dev/null && 
+mv ~/Desktop/ ~/desktop/ 2>/dev/null && 
 sudo cp -rf user-dirs.dirs ~/.config/user-dirs.dirs &&
 cp -f .tmux.conf ~/.tmux.conf &&
 cat .bashrc >> ~/.bashrc &&
