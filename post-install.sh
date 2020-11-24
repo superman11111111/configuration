@@ -1,6 +1,6 @@
 sudo apt update -y 2> /dev/null && 
 sudo apt upgrade -y 2>/dev/null && 
-sudo apt install build-essential tmux screen vim git net-tools -y && 
+sudo apt install build-essential tmux screen vim git net-tools python3-pip -y && 
 for i in Documents/ Music/ Pictures/ Public/ Templates/ Videos/ 
 do 
 	sudo rm -rf ~/$i
